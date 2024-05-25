@@ -1,6 +1,7 @@
+const db = require("./../database");
+
 import { Aluno } from "../model/Aluno";
 
-const db = require("./../database");
 
 export class AlunoRepository {
 

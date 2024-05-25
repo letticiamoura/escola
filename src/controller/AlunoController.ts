@@ -1,4 +1,3 @@
-import { FastifyRequest } from "fastify";
 import { Aluno } from "./../model/Aluno";
 import { AlunoRepository } from "./../repository/AlunoRepository";
 

@@ -1,6 +1,6 @@
-import { Curso } from "../model/Curso";
-
 const db = require("./../database");
+
+import { Curso } from "../model/Curso";
 
 export class CursoRepository {
 
