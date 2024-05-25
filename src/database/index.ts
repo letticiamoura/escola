@@ -4,10 +4,10 @@ const pgp = require("pg-promise")();
 //const join = require("node:path");
 
 const USERNAME = "postgres";
-const PASSWORD = "mberoot";
+const PASSWORD = "postgres";
 const HOST = "localhost";
 const PORT = "5432";
-const DATABASE = "escola";
+const DATABASE = "gerenciamentoAlunos";
 
 const db: any = pgp(`postgres://${USERNAME}:${PASSWORD}@${HOST}:${PORT}/${DATABASE}`);
 
